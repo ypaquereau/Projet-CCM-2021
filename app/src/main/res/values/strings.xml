@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Projet CCM 2021</string>
+    <string name="poisot_romain">POISOT Romain</string>
+    <string name="lille">Lille</string>
+    <string name="master_ccm">Master CCM</string>
+    <string name="_23">23</string>
+    <string name="d_veloppeur_fullstack">Développeur FullStack</string>
+    <string name="avatar2">Avatar2</string>
+    <string name="avatar1">Avatar1</string>
+    <string name="avatar1">Avatar1</string>
 </resources>
