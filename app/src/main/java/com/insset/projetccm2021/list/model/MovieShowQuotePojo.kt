@@ -24,6 +24,9 @@ data class MovieShowQuoteRoom(
 
     @ColumnInfo(name = "quote_source")
     val source: String,
+
+    @ColumnInfo(name = "quote_created_at")
+    val created_at: Long = System.currentTimeMillis()
 ) {
     @PrimaryKey(autoGenerate = true)
     var id: Long = 0

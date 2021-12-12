@@ -9,7 +9,7 @@ import com.insset.projetccm2021.list.model.MovieShowQuoteRoom
     entities = [
         MovieShowQuoteRoom::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 
