@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#005048">
+    android:layout_marginBottom="0dp"
+    android:background="#DDDDDD">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="409dp"
         android:layout_height="275dp"
         android:elevation="10dp"
-        app:contentPaddingBottom="2dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -19,7 +19,9 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#009688">
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
+            android:elevation="10dp">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -39,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="170dp"
                 android:text="POISOT Romain"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -51,7 +54,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="85dp"
                 android:text="Lille"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -62,7 +66,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Master 2 CCM"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -74,7 +79,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="150dp"
                 android:text="Développeur PHP/JavaScript à Conectis"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -87,16 +93,19 @@
         android:id="@+id/cardView2"
         android:layout_width="409dp"
         android:layout_height="275dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#009688"
+            android:layout_margin="0dp"
+            android:background="#FFFFFF"
             android:clipToPadding="true"
-            android:elevation="11dp">
+            android:elevation="10dp">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -116,7 +125,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="170dp"
                 android:text="PAQUEREAU Yoann"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
@@ -129,7 +139,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="85dp"
                 android:text="Lille"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -140,7 +151,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Master 2 CCM"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -152,7 +164,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="150dp"
                 android:text="Développeur Symfony chez Ganti"
-                android:textColor="#FFFFFF"
+                android:textColor="#1E1E1E"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -164,11 +177,14 @@
         android:id="@+id/buttonToApi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#009688"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FFFFFF"
         android:text="API Liste"
+        android:textColor="#1E1E1E"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        />
+        app:layout_constraintVertical_bias="0.81" />
 </androidx.constraintlayout.widget.ConstraintLayout>
