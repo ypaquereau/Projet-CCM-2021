@@ -10,8 +10,8 @@ import com.google.gson.annotations.SerializedName
 data class MovieShowQuoteUi(
     val quote: String,
     val character: String,
-    val source: String
-)
+    val source: String,
+) : MyObjectForRecyclerView(System.currentTimeMillis())
 
 /** Object use for room */
 @Entity(tableName = "movie_show_quote")
@@ -27,7 +27,7 @@ data class MovieShowQuoteRoom(
 
     @ColumnInfo(name = "quote_created_at")
     val created_at: Long = System.currentTimeMillis()
-) {
+)  {
     @PrimaryKey(autoGenerate = true)
     var id: Long = 0
 }

@@ -34,7 +34,7 @@ private fun List<MovieShowQuoteRoom>.toUi(): List<MovieShowQuoteUi> {
         MovieShowQuoteUi(
             quote = it.quote,
             character = it.character,
-            source = it.source
+            source = it.source,
         )
     }.toList()
 }
