@@ -4,4 +4,10 @@
     <string name="poste2">Symfony developer at Ganti</string>
     <string name="buttonApi">API List</string>
     <string name="buttonLogin">Login</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="password">Password</string>
+    <string name="loginText">Already have an account ?</string>
+    <string name="registerText">You don\'t have an account ?</string>
+    <string name="register">Login</string>
 </resources>
