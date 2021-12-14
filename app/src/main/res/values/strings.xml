@@ -8,5 +8,12 @@
     <string name="poste2">Développeur Symfony chez Ganti</string>
     <string name="buttonApi">API Liste</string>
     <string name="buttonLogin">Se connecter</string>
+    <string name="buttonAdd">Ajouter</string>
+    <string name="buttonDelete">Supprimer</string>
+    <string name="password">Mot de passe</string>
+    <string name="loginText">Vous avez déjà un compte ?</string>
+    <string name="registerText">Vous n\'avez pas encore de compte ?</string>
+    <string name="register">S\'inscrire</string>
+    <string name="email" translatable="false">Email</string>
     <string name="buttonLogout">Se déconnecter</string>
 </resources>
