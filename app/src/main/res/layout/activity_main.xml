@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="0dp"
-    android:background="#DDDDDD">
+    android:background="@color/backgroundColor">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="409dp"
         android:layout_height="275dp"
         android:elevation="10dp"
+        app:cardCornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="0dp"
-            android:background="#FFFFFF"
+            android:background="@color/cardViewColor"
             android:elevation="10dp">
 
             <ImageView
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="170dp"
                 android:text="POISOT Romain"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="85dp"
                 android:text="Lille"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Master 2 CCM"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="150dp"
                 android:text="Développeur PHP/JavaScript à Conectis"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -94,6 +94,7 @@
         android:layout_width="409dp"
         android:layout_height="275dp"
         android:layout_marginTop="100dp"
+        app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -103,7 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="0dp"
-            android:background="#FFFFFF"
+            android:background="@color/cardViewColor"
             android:clipToPadding="true"
             android:elevation="10dp">
 
@@ -125,7 +126,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="170dp"
                 android:text="PAQUEREAU Yoann"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="85dp"
                 android:text="Lille"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -151,7 +152,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Master 2 CCM"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -164,7 +165,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="150dp"
                 android:text="Développeur Symfony chez Ganti"
-                android:textColor="#1E1E1E"
+                android:textColor="@color/textColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -177,14 +178,31 @@
         android:id="@+id/buttonToApi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="150dp"
         android:layout_marginBottom="50dp"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="@color/cardViewColor"
         android:text="API Liste"
-        android:textColor="#1E1E1E"
+        android:textColor="@color/textColor"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
-        app:layout_constraintVertical_bias="0.81" />
+        app:layout_constraintVertical_bias="0.887" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/cardViewColor"
+        android:text="Se connecter"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardViewColor">#414141</color>
+    <color name="textColor">#E7E7E7</color>
+    <color name="backgroundColor">#3C3C3C</color>
+    <color name="purple_200">#414141</color>
+</resources>
