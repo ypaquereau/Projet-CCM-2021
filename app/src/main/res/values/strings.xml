@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Projet CCM 2021</string>
-    <string name="name1">POISOT Romain</string>
-    <string name="name2">PAQUEREAU Yoann</string>
-    <string name="ville">Lille</string>
-    <string name="classe">Master CCM</string>
+    <string name="app_name" translatable="false">Projet CCM 2021</string>
+    <string name="name1" translatable="false">POISOT Romain</string>
+    <string name="name2" translatable="false">PAQUEREAU Yoann</string>
+    <string name="ville" translatable="false">Lille</string>
+    <string name="classe" translatable="false">Master CCM</string>
     <string name="poste1">Développeur PHP/JavaScript à Conectis</string>
     <string name="poste2">Développeur Symfony chez Ganti</string>
     <string name="buttonApi">API Liste</string>
