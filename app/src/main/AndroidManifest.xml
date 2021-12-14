@@ -28,6 +28,12 @@
             android:name=".auth.view.RegisterActivity"
             android:exported="true" />
         <activity
+            android:name=".auth.view.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.view.RegisterActivity"
+            android:exported="true" />
+        <activity
             android:name=".list.view.ApiListActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"

@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        auth= FirebaseAuth.getInstance()
+        auth = FirebaseAuth.getInstance()
     }
 
     fun login(view: View){
