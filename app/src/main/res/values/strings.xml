@@ -8,4 +8,5 @@
     <string name="poste2">Développeur Symfony chez Ganti</string>
     <string name="buttonApi">API Liste</string>
     <string name="buttonLogin">Se connecter</string>
+    <string name="buttonLogout">Se déconnecter</string>
 </resources>

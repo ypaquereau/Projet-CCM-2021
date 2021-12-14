@@ -4,4 +4,5 @@
     <string name="poste2">Symfony developer at Ganti</string>
     <string name="buttonApi">API List</string>
     <string name="buttonLogin">Login</string>
+    <string name="buttonLogout">Logout</string>
 </resources>
