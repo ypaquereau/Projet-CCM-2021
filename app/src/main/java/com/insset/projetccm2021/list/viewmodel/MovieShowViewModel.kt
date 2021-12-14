@@ -35,6 +35,7 @@ private fun List<MovieShowQuoteRoom>.toUi(): List<MovieShowQuoteUi> {
             quote = it.quote,
             character = it.character,
             source = it.source,
+            timestamp = it.created_at
         )
     }.toList()
 }
