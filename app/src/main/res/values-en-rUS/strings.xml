@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="poste1">PHP/JavaScript developer at Conectis</string>
+    <string name="poste2">Symfony developer at Ganti</string>
+    <string name="buttonApi">API List</string>
+    <string name="buttonLogin">Login</string>
+</resources>
