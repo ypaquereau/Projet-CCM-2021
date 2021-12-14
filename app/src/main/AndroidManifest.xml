@@ -12,6 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetCCM2021">
+
+        <service
+            android:name=".architecture.service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".auth.view.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.view.RegisterActivity"
+            android:exported="true" />
         <activity
             android:name=".auth.view.LoginActivity"
             android:exported="true" />
