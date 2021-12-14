@@ -11,6 +11,7 @@ data class MovieShowQuoteUi(
     val quote: String,
     val character: String,
     val source: String,
+    override val timestamp: Long
 ) : MyObjectForRecyclerView(System.currentTimeMillis())
 
 /** Object use for room */
